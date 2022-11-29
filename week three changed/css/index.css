@@ -1,0 +1,213 @@
+
+* {
+    margin: 0;
+}
+
+.sign_up {
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    height: 1060px;
+    background-image: url(https://shiluyi.oss-cn-beijing.aliyuncs.com/Background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.sign_up .lvjing1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://shiluyi.oss-cn-beijing.aliyuncs.com/bgi_lvjing.png);
+}
+
+.sign_up .lvjing2 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://shiluyi.oss-cn-beijing.aliyuncs.com/slash.png);
+}
+
+.head {
+    display: flex;
+    position: absolute;
+    top: 0;
+    height: 82px;
+    width: 100%;
+}
+
+.circle:hover {
+    border: 3.5px solid rgba(255, 255, 255, 1);
+}
+
+.circle .icon-jiantou_qiehuanzuo:hover {
+    opacity: 1;
+}
+
+.circle {
+    margin: 30px 14px 0 12px;
+    height: 49px;
+    width: 49px;
+    border: 3.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 49px;
+}
+
+.circle .icon-jiantou_qiehuanzuo {
+    color: white;
+    font-size: 49px;
+    line-height: 49px;
+    opacity: 0.5;
+}
+
+.Sign {
+    flex: 1;
+    color: white;
+    font-size: 32px;
+    line-height: 82px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.icon-gantanhaozhong:hover {
+    opacity: 1;
+}
+
+.icon-gantanhaozhong {
+    color: white;
+    margin-top: 20px;
+    font-size: 80px;
+    opacity: 0.5;
+}
+
+.add:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 1);
+}
+
+.add {
+    position: absolute;
+    left: 226px;
+    top: 165px;
+    width: 153px;
+    height: 153px;
+    background-color: rgba(255, 255, 255, 0.093);
+    border-radius: 153px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.add .icon-tianjia_huaban:hover {
+    opacity: 1;
+}
+
+.add .icon-tianjia_huaban {
+    position: absolute;
+    left: 42px;
+    top: 32px;
+    font-size: 68px;
+    color: white;
+    opacity: 0.612;
+}
+
+.add p {
+    position: absolute;
+    top: 96px;
+    left: 42px;
+    color: rgba(255, 255, 255, 0.612);
+    font-size: 19.61px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 385px;
+    left: 50%;
+    margin-left: -225px;
+    width: 450px;
+    height: 234px;
+}
+
+.login div {
+    width: 100%;
+    height: 7px;
+}
+
+.login p {
+    margin-top: 0;
+    color: white;
+    font-size: 24px;
+    height: 34px;
+}
+
+.login input {
+    height: 26px;
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 22px;
+    outline: rgba(255, 255, 255, 0.35);
+    border: none;
+    border-bottom: 2.5px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.4);
+}
+
+.instruction {
+    position: relative;
+}
+
+.instruction .show:hover {
+    text-shadow: 0 0 5px white;
+}
+
+.login .instruction .show {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #3cffb5;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.button:hover {
+    box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+    position: absolute;
+    top: 711px;
+    left: 83px;
+    width: 444px;
+    height: 77px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.button a {
+    position: absolute;
+    left: 50%;
+    margin-left: -69.135px;
+    color: #706d9f;
+    font-size: 35px;
+    font-weight: 550;
+    text-decoration: none;
+    line-height: 68.5px;
+}
+
+.note p {
+    position: absolute;
+    left: 170px;
+    top: 800px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.98);
+    text-align: center;
+}
+
+.note span:hover {
+    text-shadow: 0 0 5px white;
+}
+
+.note span {
+    color: #3cffb5;
+}
